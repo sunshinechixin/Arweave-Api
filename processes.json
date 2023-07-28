@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "arweave_api",
+      "cwd": "/var/install/nodejs/arweave_api/",
+      "script": "main.js",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/var/install/nodejs/arweave_api/log/erroe.log",
+      "out_file": "log/arweave_api.log",
+      "pid_file": "pids/arweave_api.pid",
+      "instances": 1,
+      "min_uptime": "200s",
+      "watch": false,
+      "merge_logs": true,
+      "exec_interpreter": "node",
+      "exec_mode": "fork",
+      "autorestart": false,
+      "vizion": false
+    }
+  ]
+}
